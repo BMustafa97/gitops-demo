@@ -53,7 +53,7 @@ helm search repo flux
 **NOTE**: replace the git.url parameter with YOUR FORKed copy - so that you can later set the SSH public key as a DeployKey within your own Github FORKed repo
 
 ```
-helm install flux --set git.url=git@github.com:cloudacademy/gitops-demo --namespace flux flux/flux --version 1.6.0
+helm install flux --set git.url=git@github.com:BMustafa97/gitops-demo --namespace flux flux/flux --version 1.6.0
 ```
 
 **NOTE**: if needed you can perform a "helm upgrade" to change the Flux deployed chart's git.url like this:
