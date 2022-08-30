@@ -7,7 +7,7 @@ WORKDIR /corp/app
 COPY main.py .
 ENV FLASK_APP=/corp/app/main.py
 
-ENV APP_NAME=Bilal.Smashing.Out.Demos
-ENV APP_VERSION=v1.0.6
+ENV APP_NAME=CloudAcademy.DevOps
+ENV APP_VERSION=v1.0.9
 
 CMD ["flask", "run", "--host=127.0.0.1"]
